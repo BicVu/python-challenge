@@ -1,0 +1,37 @@
+Git Basics
+2019-03-24
+
+RESOURCE:
+http://rogerdudler.github.io/git-guide/
+
+-----
+On Github.com
+Create new repository on website.
+Include readme and licenses.
+-----
+
+Click 'Clone or download'
+Copy HTTPS...
+
+IN TERMINAL
+cd to directory where you want to store this repo
+
+git clone https://...
+
+MAKE FILES
+mkdir PyBank
+git add PyBank
+cd PyBank
+touch main.py
+git add main.py
+
+cd .. to main repo
+git commit -m "BV Commit to origin master"
+git push origin master
+WINDOW POPS UP PROMPTING PW
+Input computer PW
+
+CHECK
+git status
+CHECK refresh Github repo web
+
