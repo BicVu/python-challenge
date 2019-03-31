@@ -40,7 +40,8 @@ with open(csvpath, newline="") as csvfile:
 
         net = int(row[1]) # Remember that items in a list are strings by default.
         net_list.append(net)
-        
+
+# TA: Created a separate list because I couldn't figure out how to extract current, previous and next iterations within csvreader for loop.        
 n = 0
 for n in range(85):
 #     cur = net_list[n]
